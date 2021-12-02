@@ -1,0 +1,70 @@
+[
+    {
+      "id": 1,
+      "title": "Tim Duncan",
+      "rating": 5,
+      "imageURL" : "https://i.pinimg.com/564x/9b/64/b3/9b64b338acf6bc5fc4892edacc297939.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Kevin Garnett",
+      "rating": 5,
+      "imageURL" : "https://i.pinimg.com/564x/b7/da/04/b7da04eaac5c6e2ce653f8057d29497a.jpg"
+    },
+    {
+      "id": 3,
+      "title": "David Robinson",
+      "rating": 5,
+      "imageURL" : "https://i.pinimg.com/564x/13/6b/6b/136b6b19fb6349e6c4cbbce00d7a914c.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Kobe Bryant",
+      "rating": 5,
+      "imageURL" : "https://i.pinimg.com/564x/f8/93/c4/f893c466754ef335f7cb6877fb80e1b6.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Vince Carter",
+      "rating": 4,
+      "imageURL" : "https://i.pinimg.com/564x/aa/99/47/aa99477422bc8c969e9c79161f44fe29.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Khawi Leonard",
+      "rating": 5,
+      "imageURL" : "https://i.pinimg.com/564x/04/6e/a3/046ea3e45d35178fc5ff5311e1859074.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Karl Malone",
+      "rating": 5,
+      "imageURL" : "https://i.pinimg.com/564x/b1/9f/95/b19f95804fa987ad45d40cf11581d20c.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Ray Allen",
+      "rating": 5,
+      "imageURL" : "https://i.pinimg.com/564x/6c/e4/ae/6ce4ae955be64147e0090441be729669.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Jrue Holiday",
+      "rating": 5,
+      "imageURL" : "https://i.pinimg.com/564x/2d/1b/b6/2d1bb67e2e0353a3d925728a98749494.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Gary Payton",
+      "rating": 5,
+      "imageURL" : "https://i.pinimg.com/564x/37/89/95/37899529161f11f58837eecd5a893d10.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Hakeem Olajuwon",
+      "rating": 5,
+      "imageURL" : "https://i.pinimg.com/originals/b7/54/fd/b754fd9f4769089fae5c393d27cb9082.jpg"
+    }
+  ]
+
+  

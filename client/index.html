@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hooper List</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="cal-style.css" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <h1>NBA75</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="quiz.html">Quiz</a>
+            
+        </nav>
+    </header>
+   
+    <main>
+        <!-- <div>
+            <h2>Instructions</h2>
+            <li>Add NBA plyaer who didn't make NBA75 list</li>
+            <li>Enter Player Name</li>
+            <li>Use the search engine of your choice and copy image url</li>
+            <li>On the scale on 1-5 (1:lowest, 5:highest), rate player you added</li>
+            <li>Sumbit entry by pressing 'Add Card'</li>
+            <li>Delete players you feel didn't meet requirements, change ratings as well</li>
+            <li>Click 'Quiz' to play a short NBA75 trivia</li>
+        </div> -->
+    <form>
+        <input 
+            type='text'
+            id="title"
+            placeholder="Add NBA Player"/>
+        <input 
+            type='text'
+            id="img"
+            placeholder='Paste an image URL'/>
+        <section id="ratings-container">
+            <p>Rate the player:</p>
+            <div id="radio-container">
+                <label for="one">
+                    <input
+                        type="radio"
+                        name="ratings"
+                        value="1"
+                        id="one"/>
+                    1
+                </label>
+                <label for="two">
+                    <input
+                        type="radio"
+                        name="ratings"
+                        value="2"
+                        id="two"/>
+                    2
+                </label>
+                <label for="three">
+                    <input
+                        type="radio"
+                        name="ratings"
+                        value="3"
+                        id="three"/>
+                    3
+                </label>
+                <label for="four">
+                    <input
+                        type="radio"
+                        name="ratings"
+                        value="4"
+                        id="four"/>
+                    4
+                </label>
+                <label for="five">
+                    <input
+                        type="radio"
+                        name="ratings"
+                        value="5"
+                        id="five"/>
+                    5
+                </label>
+            </div>
+        </section>
+        <button>Add Player</button>
+    </form>
+
+
+    <div class="ball">
+        <div class="stroke pos1"></div>
+        <div class="stroke pos2"></div>
+        <div class="stroke2 pos3"></div>
+        <div class="stroke2 pos4"></div>
+    </div>
+</main>
+    <div>
+        <section class="Cards" id="player-container">
+        </section>
+    </div>
+
+ 
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+   
+</body>
+</html>
